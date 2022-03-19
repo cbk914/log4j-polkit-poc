@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 RUN apt update
 RUN apt install -y openjdk-8-jdk
 RUN apt install -y wget gcc curl netcat net-tools
