@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 COPY --chown=www-data:www-data spring-boot-application.jar /app/spring-boot-application.jar
 RUN apt update
 RUN apt install -y net-tools curl wget gcc netcat-traditional
